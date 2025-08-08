@@ -1,4 +1,4 @@
-# CFAD 2.0: Development Best Practices
+# Augment Develop Method: Development Best Practices
 
 ## 🎯 Purpose
 Defines development philosophy, patterns to follow, anti-patterns to avoid, and decision-making guidelines.

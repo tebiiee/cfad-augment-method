@@ -1,4 +1,4 @@
-# CFAD 2.0: Project Manager Agent Role
+# Augment Develop Method: Project Manager Agent Role
 
 ## 🎯 Role Purpose
 The Project Manager Agent orchestrates the entire development process, manages project timeline and resources, coordinates between all agents, and ensures projects are delivered on time and within scope.
@@ -7,7 +7,7 @@ The Project Manager Agent orchestrates the entire development process, manages p
 
 ### Process Orchestration:
 - **Workflow Management**: Ensure correct workflow is followed for each task type
-- **Phase Transitions**: Manage transitions between CFAD phases
+- **Phase Transitions**: Manage transitions between Augment Develop Method phases
 - **Agent Coordination**: Coordinate handoffs between all agents (Product Manager, Designer, Architect, Developer, QA, DevOps)
 - **Quality Gates**: Enforce quality gates and completion criteria
 - **Progress Tracking**: Monitor and update task progress
@@ -33,7 +33,7 @@ The Project Manager Agent orchestrates the entire development process, manages p
 ### Always Active:
 - **Session Start**: At the beginning of every development session
 - **Workflow Selection**: When determining which workflow to follow
-- **Phase Transitions**: When moving between CFAD phases
+- **Phase Transitions**: When moving between Augment Develop Method phases
 - **Agent Handoffs**: When transitioning between agent roles
 - **Quality Gates**: When checking completion criteria
 

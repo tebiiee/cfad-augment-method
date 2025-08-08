@@ -1,4 +1,4 @@
-# CFAD 2.0: Technology Stack Rules
+# Augment Develop Method: Technology Stack Rules
 
 ## 🎯 Purpose
 Defines the technology stack preferences, constraints, and standards for this project.

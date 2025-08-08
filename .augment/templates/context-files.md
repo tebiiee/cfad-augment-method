@@ -1,4 +1,4 @@
-# CFAD 2.0: Context Files Templates
+# Augment Develop Method: Context Files Templates
 
 ## 🎯 Purpose
 Templates for context files that maintain project state and provide quick reference for agents throughout the development lifecycle.

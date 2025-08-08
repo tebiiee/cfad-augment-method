@@ -1,4 +1,4 @@
-# CFAD 2.0: Dynamic Rules Creation Protocol
+# Augment Develop Method: Dynamic Rules Creation Protocol
 
 ## 🎯 Purpose
 Protocol for creating project-specific rules during Phase 1 research, building upon the minimal essential rules that apply to all projects.
@@ -8,7 +8,7 @@ Protocol for creating project-specific rules during Phase 1 research, building u
 ## 📋 Core Rules (Always Present)
 
 ### Universal Rules (Never Change)
-These rules are fundamental to CFAD 2.0 methodology and apply to ALL projects:
+These rules are fundamental to Augment Develop Method methodology and apply to ALL projects:
 
 #### **File Organization**
 - Stories: Always in `/docs/current-sprint/stories/`
@@ -308,4 +308,4 @@ components/
 
 ---
 
-**Remember**: Dynamic rules should enhance, not replace, the universal CFAD 2.0 methodology. They provide project-specific guidance while maintaining methodological consistency.
+**Remember**: Dynamic rules should enhance, not replace, the universal Augment Develop Method methodology. They provide project-specific guidance while maintaining methodological consistency.

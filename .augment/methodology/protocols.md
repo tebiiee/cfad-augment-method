@@ -1,4 +1,4 @@
-# CFAD 2.0: Methodology Protocols
+# Augment Develop Method: Methodology Protocols
 
 ## 🎯 Purpose
 Detailed protocols that support workflows with specific procedures for tools, quality gates, task management, and completion criteria.

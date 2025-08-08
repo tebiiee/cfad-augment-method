@@ -1,9 +1,9 @@
-# CFAD 2.0: Context-First Agentic Development
-## Enhanced Modular Methodology for Augment Code
+# Augment Develop Method
+## Comprehensive Development Methodology for Modern Software Development
 
-### 🚀 What's New in CFAD 2.0
+### 🚀 What's New in Augment Develop Method
 
-**CFAD 2.0** evolves the proven methodology with **4-phase UI-first approach**, modular architecture, specialized agent roles, and intelligent workflow selection inspired by Claude Code Agents and Agent OS best practices.
+**Augment Develop Method** is a comprehensive development methodology with **4-phase UI-first approach**, modular architecture, specialized agent roles, and intelligent workflow selection inspired by Claude Code Agents and Agent OS best practices.
 
 ### ✨ Key Enhancements
 
@@ -77,7 +77,7 @@
     decisions.md               # All major decisions with rationale
 ```
 
-## 🎯 How to Use CFAD 2.0
+## 🎯 How to Use Augment Develop Method
 
 ### Step 1: Specify Your Work Type
 Tell the agent what you want to do:
@@ -238,7 +238,7 @@ The DevOps agent automatically activates when projects require advanced infrastr
 - MVP or prototype development
 
 ### Dynamic Rules Creation
-CFAD 2.0 creates project-specific rules during Phase 1 research:
+Augment Develop Method creates project-specific rules during Phase 1 research:
 
 #### **Universal Rules (Never Change):**
 - File organization standards
@@ -267,7 +267,7 @@ CFAD 2.0 creates project-specific rules during Phase 1 research:
 
 ## 📋 Task Management Integration
 
-CFAD 2.0 leverages Augment Code's native task management:
+Augment Develop Method leverages Augment Code's native task management:
 - **Automatic Task Creation**: From story breakdown
 - **Real-time Progress**: Task state updates during implementation
 - **Dependency Tracking**: Automatic dependency resolution
@@ -289,7 +289,7 @@ CFAD 2.0 leverages Augment Code's native task management:
 ## 📋 Templates and Documentation
 
 ### Available Templates
-CFAD 2.0 provides comprehensive templates for consistent documentation:
+Augment Develop Method provides comprehensive templates for consistent documentation:
 
 #### **Research & Planning Templates:**
 - **Research Artifacts**: Market analysis, product definition, technical feasibility
@@ -315,8 +315,8 @@ CFAD 2.0 provides comprehensive templates for consistent documentation:
 
 ## 🎯 Getting Started
 
-1. **Initialize Project**: Place `methodology-v2.md` in your project root
-2. **Start Session**: `"Apply CFAD 2.0 methodology: ./methodology-v2.md"`
+1. **Initialize Project**: Place `methodology.md` in your project root
+2. **Start Session**: `"Apply Augment Develop Method: ./methodology.md"`
 3. **Follow Guidance**: Agent will create `.augment/` structure automatically
 4. **Trust the Process**: Let the methodology guide the implementation
 

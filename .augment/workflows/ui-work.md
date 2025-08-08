@@ -1,4 +1,4 @@
-# CFAD 2.0: UI/UX Work Workflow
+# Augment Develop Method: UI/UX Work Workflow
 
 ## 🔄 **Workflow Redirection**
 

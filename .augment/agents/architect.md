@@ -1,4 +1,4 @@
-# CFAD 2.0: Architect Agent Role
+# Augment Develop Method: Architect Agent Role
 
 ## 🎯 Role Purpose
 The Architect Agent is responsible for high-level design decisions, system architecture, trade-off analysis, and technical planning.

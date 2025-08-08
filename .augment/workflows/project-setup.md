@@ -1,11 +1,11 @@
-# CFAD 2.0: Complete Project Setup Workflow
+# Augment Develop Method: Complete Project Setup Workflow
 
 ## 🔄 **Workflow Redirection**
 
 This workflow has been **upgraded to the new standardized structure**.
 
-### **📁 New Location**: 
-**Use**: `.augment/workflows/project-setup/overview.md`
+### **📁 New Location**:
+**Use**: `.augment/workflows/project-setup/phase-1-overview.md`
 
 ### **🎯 What Changed**:
 - **✅ Standardized Structure**: Now follows 4-phase UI-first approach
@@ -17,7 +17,7 @@ This workflow has been **upgraded to the new standardized structure**.
 - **✅ Comprehensive Templates**: All 13 templates created and integrated
 
 ### **🚀 Start Here**:
-**File**: `.augment/workflows/project-setup/overview.md`
+**File**: `.augment/workflows/project-setup/phase-1-overview.md`
 **Purpose**: Complete project setup from concept to MVP
 **Structure**: 4 phases with comprehensive UI-first development
 
@@ -25,7 +25,6 @@ This workflow has been **upgraded to the new standardized structure**.
 
 ## 📋 **Quick Navigation**:
 
-- **Overview**: `.augment/workflows/project-setup/overview.md`
 - **Phase 1**: `.augment/workflows/project-setup/phase-1-overview.md`
 - **Phase 2**: `.augment/workflows/project-setup/phase-2-research.md`
 - **Phase 3**: `.augment/workflows/project-setup/phase-3-planning.md`

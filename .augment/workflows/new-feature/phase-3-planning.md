@@ -1,4 +1,4 @@
-# CFAD 2.0: New Feature - Phase 2: UI-First Planning & Architecture
+# Augment Develop Method: New Feature - Phase 2: UI-First Planning & Architecture
 
 ## 🎯 Phase Purpose
 Convert feature analysis into implementable plan with UI-first approach, technical architecture, and hyper-detailed stories ready for development.

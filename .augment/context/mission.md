@@ -60,7 +60,7 @@
 ## 🔄 Development Philosophy
 
 ### Methodology Alignment
-- **CFAD 2.0**: [How this project uses CFAD 2.0 methodology]
+- **Augment Develop Method**: [How this project uses Augment Develop Method methodology]
 - **Agile Practices**: [Specific agile practices adopted]
 - **Quality Focus**: [Emphasis on quality throughout development]
 - **Continuous Improvement**: [How the team learns and improves]

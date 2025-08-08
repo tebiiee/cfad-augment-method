@@ -1,4 +1,4 @@
-# CFAD 2.0: Main Rules & Orchestration
+# Augment Develop Method: Main Rules & Orchestration
 
 ## 🎯 Purpose
 This file orchestrates all technical rules and standards for the project. It serves as the entry point for understanding how to build software in this codebase.

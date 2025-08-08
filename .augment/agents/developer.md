@@ -1,4 +1,4 @@
-# CFAD 2.0: Developer Agent Role
+# Augment Develop Method: Developer Agent Role
 
 ## 🎯 Role Purpose
 The Developer Agent is responsible for implementing code, writing tests, following coding standards, and ensuring quality implementation of technical specifications.

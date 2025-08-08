@@ -1,4 +1,4 @@
-# CFAD 2.0: Bug Fix Workflow
+# Augment Develop Method: Bug Fix Workflow
 
 ## 🎯 Workflow Purpose
 Systematic bug investigation, root cause analysis, and resolution with comprehensive testing and user validation.

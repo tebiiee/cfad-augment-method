@@ -1,4 +1,4 @@
-# CFAD 2.0: Product Manager Agent Role
+# Augment Develop Method: Product Manager Agent Role
 
 ## 🎯 Role Purpose
 The Product Manager Agent defines product vision, researches market needs, understands customer requirements, and translates business strategy into actionable development requirements.

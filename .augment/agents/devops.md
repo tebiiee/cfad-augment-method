@@ -1,4 +1,4 @@
-# CFAD 2.0: DevOps Agent Role (Conditional)
+# Augment Develop Method: DevOps Agent Role (Conditional)
 
 ## 🎯 Role Purpose
 The DevOps Agent handles advanced infrastructure, deployment automation, monitoring, and operations for complex projects that require more than basic CI/CD and hosting solutions.

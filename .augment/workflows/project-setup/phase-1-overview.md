@@ -1,7 +1,7 @@
-# CFAD 2.0: Project Setup Workflow - Overview
+# Augment Develop Method: Project Setup Workflow - Overview
 
 ## 🎯 Workflow Purpose
-Complete workflow for setting up new projects from initial concept to fully configured development environment with CFAD 2.0 methodology integrated.
+Complete workflow for setting up new projects from initial concept to fully configured development environment with Augment Develop Method integrated.
 
 ## 📋 Workflow Structure
 
@@ -132,6 +132,11 @@ Every agent interaction must start with:
 - [ ] GitHub repository URL available
 - [ ] Project inputs in `/docs/project-input/`
 - [ ] methodology-v2.md in project root
+
+### **Phase 1 Completion & Confirmation**
+- [ ] **COMMIT**: "workflow: confirm Phase 1 understanding - ready for research phase"
+- [ ] **Confirmation**: Explicitly confirm understanding of workflow structure
+- [ ] **Documentation**: Ensure all Phase 1 criteria are met
 
 ### **Phase 2 Preparation**
 - [ ] **Role Declaration**: 🎭 **I am acting as Project Manager** for Phase 2 coordination

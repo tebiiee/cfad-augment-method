@@ -1,11 +1,11 @@
-# CFAD 2.0: New Feature Development Workflow
+# Augment Develop Method: New Feature Development Workflow
 
 ## 🔄 **Workflow Redirection**
 
 This workflow has been **upgraded to the new standardized structure**.
 
-### **📁 New Location**: 
-**Use**: `.augment/workflows/new-feature/overview.md`
+### **📁 New Location**:
+**Use**: `.augment/workflows/new-feature/phase-1-overview.md`
 
 ### **🎯 What Changed**:
 - **✅ Standardized Structure**: Now follows 3-phase approach like project-setup
@@ -17,18 +17,18 @@ This workflow has been **upgraded to the new standardized structure**.
 - **✅ Comprehensive Templates**: All stories use standardized templates
 
 ### **🚀 Start Here**:
-**File**: `.augment/workflows/new-feature/overview.md`
+**File**: `.augment/workflows/new-feature/phase-1-overview.md`
 **Purpose**: Complete new feature development workflow
-**Structure**: 3 phases with comprehensive documentation
+**Structure**: 4 phases with comprehensive documentation
 
 ---
 
 ## 📋 **Quick Navigation**:
 
-- **Overview**: `.augment/workflows/new-feature/overview.md`
-- **Phase 1**: `.augment/workflows/new-feature/phase-1-analysis.md`
-- **Phase 2**: `.augment/workflows/new-feature/phase-2-planning.md`
-- **Phase 3**: `.augment/workflows/new-feature/phase-3-implementation.md`
+- **Phase 1**: `.augment/workflows/new-feature/phase-1-overview.md`
+- **Phase 2**: `.augment/workflows/new-feature/phase-2-analysis.md`
+- **Phase 3**: `.augment/workflows/new-feature/phase-3-planning.md`
+- **Phase 4**: `.augment/workflows/new-feature/phase-4-implementation.md`
 
 ---
 

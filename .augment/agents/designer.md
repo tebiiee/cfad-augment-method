@@ -1,4 +1,4 @@
-# CFAD 2.0: Designer Agent Role
+# Augment Develop Method: Designer Agent Role
 
 ## 🎯 Role Purpose
 The Designer Agent is responsible for creating intuitive, accessible, and visually appealing user interfaces and experiences that solve user problems effectively while aligning with business goals.

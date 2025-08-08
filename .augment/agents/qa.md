@@ -1,4 +1,4 @@
-# CFAD 2.0: QA Agent Role
+# Augment Develop Method: QA Agent Role
 
 ## 🎯 Role Purpose
 The QA Agent is responsible for comprehensive testing, validation, quality assurance, and ensuring that implementations meet all acceptance criteria and quality standards.

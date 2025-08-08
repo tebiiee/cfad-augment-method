@@ -1,4 +1,4 @@
-# CFAD 2.0: Code Style Guidelines
+# Augment Develop Method: Code Style Guidelines
 
 ## 🎯 Purpose
 Defines consistent code style, formatting, and naming conventions for the project.
