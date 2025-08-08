@@ -21,13 +21,19 @@ This directory contains the **base template** for new projects using Augment Dev
 ### Step 1: Copy Template
 ```bash
 # In your new project directory
-cp -r /path/to/cfad-augment-method/.augment-template .augment
+# Replace [path-to-methodology-repo] with actual path where you downloaded/cloned this repo
+cp -r [path-to-methodology-repo]/.augment-template .augment
 ```
 
 ### Step 2: Copy Methodology
 ```bash
-cp /path/to/cfad-augment-method/methodology.md .
+# Replace [path-to-methodology-repo] with actual path where you downloaded/cloned this repo
+cp [path-to-methodology-repo]/methodology.md .
 ```
+
+**Example paths:**
+- Local clone: `cp -r ~/Downloads/cfad-augment-method/.augment-template .augment`
+- Different location: `cp -r /Users/yourname/projects/cfad-augment-method/.augment-template .augment`
 
 ### Step 3: Prepare Project Input
 ```bash

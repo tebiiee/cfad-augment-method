@@ -141,6 +141,17 @@ WORKFLOW (e.g., project-setup, new-feature, bug-fix)
             └── SUB-TASK: Documentation Review
 ```
 
+### **Commit Strategy by Hierarchy Level**
+- **PHASE Transitions**: Mandatory commits with phase completion
+- **STEP Completion**: Commits for major step milestones
+- **TASK (Story) Completion**: Commits per completed story + verification
+- **SUB-TASK**: Optional commits for complex stories or risky changes
+
+### **Task Management Alignment**
+- **Methodology TASK** = **Augment Code TASK** (1:1 mapping)
+- **Story Implementation** = **Single Augment Task** with sub-tasks for complex stories
+- **Phase Completion** = **Task Group Completion** in Augment
+
 ### **Critical Rules for AI Agents**
 
 #### **🚫 NEVER DO:**
@@ -153,6 +164,7 @@ WORKFLOW (e.g., project-setup, new-feature, bug-fix)
 #### **✅ ALWAYS DO:**
 - ✅ Declare agent role: `🎭 **I am acting as [Role]** for [task]`
 - ✅ Read ALL files in `/docs/project-input/` before starting research
+- ✅ Archive project inputs to `/docs/archived/[timestamp]/` after reading
 - ✅ Create mandatory commits at phase transitions
 - ✅ Update `.augment/context/` files as work progresses
 - ✅ Follow UI-first approach for all development work

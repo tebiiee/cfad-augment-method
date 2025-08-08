@@ -32,8 +32,9 @@ Comprehensive research and analysis across all domains to establish project foun
 **BEFORE any research, agents MUST:**
 1. **Read ALL files** in `/docs/project-input/` thoroughly
 2. **Understand user requirements** from provided materials
-3. **Base research** on user inputs, not assumptions
-4. **NEVER create files** in `/docs/project-input/`
+3. **Archive inputs** to `/docs/archived/[timestamp]/` (MANDATORY step)
+4. **Base research** on user inputs, not assumptions
+5. **NEVER create files** in `/docs/project-input/`
 
 ### **Step 1: Project Initialization & Repository Setup (Project Manager)**
 
