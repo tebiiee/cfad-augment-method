@@ -22,19 +22,6 @@ Comprehensive research and analysis across all domains to establish project foun
 
 ## 📋 Step-by-Step Process
 
-### **🎭 MANDATORY: Agent Role Declaration**
-**EVERY step must start with role declaration:**
-```markdown
-🎭 **I am acting as [Agent Role]** for [specific task]
-```
-
-### **📥 CRITICAL: Project Input Analysis**
-**BEFORE any research, agents MUST:**
-1. **Read ALL files** in `/docs/project-input/` thoroughly
-2. **Understand user requirements** from provided materials
-3. **Base research** on user inputs, not assumptions
-4. **NEVER create files** in `/docs/project-input/`
-
 ### **Step 1: Project Initialization & Repository Setup (Project Manager)**
 
 ```markdown

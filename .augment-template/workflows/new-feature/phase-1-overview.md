@@ -1,19 +1,7 @@
 # Augment Develop Method: New Feature Development - Phase 1: Overview
 
 ## 🎯 Phase Purpose
-Understand the complete new feature workflow structure for **EXISTING PROJECTS**. This workflow is designed for adding new features to projects that already have established codebase and structure.
-
-**Use this workflow when:**
-- Adding features to existing projects
-- Project already has established codebase
-- Need feature analysis and planning phases
-- Working within existing architecture
-
-### **🎭 MANDATORY: Agent Role Declaration**
-**EVERY interaction must start with:**
-```markdown
-🎭 **I am acting as [Agent Role]** for [specific task/phase]
-```
+Understand the complete new feature development workflow structure, agent roles, and phase navigation before beginning feature analysis.
 
 ## 📍 Phase Navigation
 - **Previous**: Workflow Selection ✅

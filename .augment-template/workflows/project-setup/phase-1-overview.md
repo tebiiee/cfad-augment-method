@@ -1,13 +1,7 @@
 # Augment Develop Method: Project Setup Workflow - Overview
 
 ## 🎯 Workflow Purpose
-Complete workflow for setting up **NEW PROJECTS** from initial concept to fully configured development environment with Augment Develop Method integrated.
-
-**Use this workflow when:**
-- Starting a completely new project
-- User provides project concept/idea and repository URL
-- No existing codebase or minimal existing code
-- Need comprehensive research and planning phases
+Complete workflow for setting up new projects from initial concept to fully configured development environment with Augment Develop Method integrated.
 
 ## 📋 Workflow Structure
 
@@ -136,22 +130,8 @@ Every agent interaction must start with:
 
 ### **Prerequisites**
 - [ ] GitHub repository URL available
-- [ ] Project inputs in `/docs/project-input/` (READ-ONLY for agents)
+- [ ] Project inputs in `/docs/project-input/`
 - [ ] methodology.md in project root
-- [ ] `.augment/` structure copied from `.augment-template/`
-
-### **🎭 MANDATORY: Agent Role Declaration**
-**EVERY interaction must start with:**
-```markdown
-🎭 **I am acting as [Agent Role]** for [specific task/phase]
-```
-
-### **📥 Critical: Project Input Analysis**
-**BEFORE starting any work, agents MUST:**
-1. **Read ALL files** in `/docs/project-input/` thoroughly
-2. **Analyze user requirements** from provided materials
-3. **NEVER create or modify** files in `/docs/project-input/`
-4. **Base all research** on user-provided inputs, not assumptions
 
 ### **Phase 1 Completion & Confirmation**
 - [ ] **COMMIT**: "workflow: confirm Phase 1 understanding - ready for research phase"

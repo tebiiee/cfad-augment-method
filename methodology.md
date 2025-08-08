@@ -18,7 +18,7 @@
 
 ```
 /docs/                          # Project documentation structure
-  /project-input/               # User inputs (ideas, notes, screenshots, etc.)
+  /project-input/               # 📥 User inputs (READ-ONLY for agents - ideas, notes, screenshots, etc.)
   /archived/                    # Archived project inputs by timestamp
     /2024-01-15-143022/         # Example: archived inputs from specific session
   /research/                    # Phase 2: Research artifacts (for project-setup workflow)
@@ -107,15 +107,60 @@ The agent will automatically:
 
 ### Supported Work Types
 
-| Work Type | Workflow File | Agent Flow | Description |
-|-----------|---------------|------------|-------------|
-| **New Project** | `project-setup/` | PM → Designer → Architect → Developer → QA | Complete project setup with 4-phase UI-first approach (Overview → Research → Planning → Implementation) |
-| **New Features** | `new-feature/` | PM → Designer → Architect → Developer → QA | Add functionality with 4-phase UI-first approach (Overview → Analysis → Planning → Implementation) |
-| **Bug Fixes** | `bug-fix/` | PM → Developer → QA | Investigation and resolution with 3-phase systematic approach (Overview → Investigation → Resolution) |
-| **Code Optimization** | `refactor/` | PM → Architect → Developer → QA | Safe code improvement with 3-phase approach (Overview → Analysis → Implementation) |
-| **UI/UX Work** | `ui-work/` | Designer → Developer → QA | Interface implementation with 3-phase design-first approach (Overview → Design → Implementation) |
+| Work Type | Workflow File | Agent Flow | Description | When to Use |
+|-----------|---------------|------------|-------------|-------------|
+| **New Project** | `project-setup/` | PM → Designer → Architect → Developer → QA | Complete project setup with 4-phase UI-first approach (Overview → Research → Planning → Implementation) | Starting from scratch, new repository, project concept |
+| **New Features** | `new-feature/` | PM → Designer → Architect → Developer → QA | Add functionality with 4-phase UI-first approach (Overview → Analysis → Planning → Implementation) | Existing project, adding features |
+| **Bug Fixes** | `bug-fix/` | PM → Developer → QA | Investigation and resolution with 3-phase systematic approach (Overview → Investigation → Resolution) | Fixing issues, debugging problems |
+| **Code Optimization** | `refactor/` | PM → Architect → Developer → QA | Safe code improvement with 3-phase approach (Overview → Analysis → Implementation) | Improving code quality, performance |
+| **UI/UX Work** | `ui-work/` | Designer → Developer → QA | Interface implementation with 3-phase design-first approach (Overview → Design → Implementation) | Redesigning interface, UX improvements |
+
+### **🔍 Workflow Selection Guide**
+- **See**: `.augment/workflows/workflow-selection.md` for detailed selection criteria
+- **Default for new projects**: Always use `project-setup` workflow
+- **When unclear**: Ask user to clarify project type and requirements
 
 **Note**: DevOps agent activates automatically for complex projects requiring advanced infrastructure (Docker, Kubernetes, IaC).
+
+## 📋 Methodology Hierarchy & Structure
+
+### **Work Structure Hierarchy**
+```
+WORKFLOW (e.g., project-setup, new-feature, bug-fix)
+├── PHASE 1: Overview & Setup
+├── PHASE 2: Research/Analysis
+├── PHASE 3: Planning/Implementation
+└── PHASE 4: Implementation (project-setup only)
+    ├── STEP 1: Environment Setup
+    ├── STEP 2: Story Development Cycle
+    └── STEP 3: Quality Validation
+        ├── TASK: Write Tests
+        ├── TASK: Run CI/CD
+        └── TASK: User Approval
+            ├── SUB-TASK: Demo Preparation
+            └── SUB-TASK: Documentation Review
+```
+
+### **Critical Rules for AI Agents**
+
+#### **🚫 NEVER DO:**
+- ❌ Create or modify files in `/docs/project-input/` (READ-ONLY)
+- ❌ Skip agent role declaration before interactions
+- ❌ Advance phases without completing all mandatory steps
+- ❌ Commit broken code or skip CI/CD validation
+- ❌ Start work without reading project-input files first
+
+#### **✅ ALWAYS DO:**
+- ✅ Declare agent role: `🎭 **I am acting as [Role]** for [task]`
+- ✅ Read ALL files in `/docs/project-input/` before starting research
+- ✅ Create mandatory commits at phase transitions
+- ✅ Update `.augment/context/` files as work progresses
+- ✅ Follow UI-first approach for all development work
+
+#### **📥 Project Input Rules**
+- **For Users**: Place ALL project requirements, ideas, inspiration, screenshots, competitor examples in `/docs/project-input/`
+- **For Agents**: READ and ANALYZE all project-input files, but NEVER create or modify them
+- **Structure**: Use subdirectories like `inspiration/`, `requirements/`, `assets/` for organization
 
 ## 🔄 Enhanced Multi-Phase Process
 
@@ -334,6 +379,39 @@ Augment Develop Method provides comprehensive templates for consistent documenta
 
 ## 🎯 Getting Started
 
+### **For New Projects (Recommended Setup)**
+
+#### **Step 1: Copy Template Structure**
+```bash
+# Copy the clean template (without project-specific content)
+cp -r /path/to/cfad-augment-method/.augment-template .augment
+cp /path/to/cfad-augment-method/methodology.md .
+```
+
+#### **Step 2: Prepare Project Input**
+```bash
+mkdir -p docs/project-input
+# Add your project files:
+# - idea.md (main concept)
+# - inspiration/ (screenshots, examples)
+# - requirements/ (detailed specs)
+# - assets/ (mockups, designs)
+```
+
+#### **Step 3: Start Augment Code Session**
+```
+"Apply this methodology: ./methodology.md for building [your project description]
+
+Repository: https://github.com/username/project-name.git"
+```
+
+### **What Happens During Setup**
+- **Phase 1**: Agent creates `.augment/context/` files and populates `.augment/rules/`
+- **Agent reads**: ALL files in `docs/project-input/` for project understanding
+- **Agent creates**: Project-specific rules, context, and dynamic guidelines
+- **Agent sets up**: Repository connection, CI/CD, and development environment
+
+### **Legacy Setup (Not Recommended)**
 1. **Initialize Project**: Place `methodology.md` in your project root
 2. **Start Session**: `"Apply Augment Develop Method: ./methodology.md"`
 3. **Follow Guidance**: Agent will create `.augment/` structure automatically
