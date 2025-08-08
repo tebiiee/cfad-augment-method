@@ -21,7 +21,7 @@
   /project-input/               # User inputs (ideas, notes, screenshots, etc.)
   /archived/                    # Archived project inputs by timestamp
     /2024-01-15-143022/         # Example: archived inputs from specific session
-  /research/                    # Phase 1: Research artifacts
+  /research/                    # Phase 2: Research artifacts (for project-setup workflow)
     existing-code-analysis.md   # Analysis of existing codebase
     market-analysis.md          # Market research and competition
     product-definition.md       # Product strategy and features
@@ -44,7 +44,7 @@
   /sprint-summaries/            # Sprint completion summaries
     sprint-1-summary.md         # Sprint 1 completion summary
     sprint-2-summary.md         # Sprint 2 completion summary
-  /current-sprint/              # Symlink or reference to active sprint
+
 /.augment/                      # NEW: Modular methodology files
   /rules/                       # Technical rules and standards
     main.md                     # Main rules (orchestrates others)
@@ -109,17 +109,17 @@ The agent will automatically:
 
 | Work Type | Workflow File | Agent Flow | Description |
 |-----------|---------------|------------|-------------|
-| **New Project** | `project-setup/` | PM → Designer → Architect → Developer → QA | Complete project setup with 4-phase UI-first approach |
-| **New Features** | `new-feature/` | PM → Designer → Architect → Developer → QA | Add functionality with 3-phase UI-first approach |
-| **Bug Fixes** | `bug-fix/` | PM → Developer → QA | Investigation and resolution with 2-phase systematic approach |
-| **Code Optimization** | `refactor/` | PM → Architect → Developer → QA | Safe code improvement with 3-phase approach |
-| **UI/UX Work** | `ui-work/` | Designer → Developer → QA | Interface implementation with 3-phase design-first approach |
+| **New Project** | `project-setup/` | PM → Designer → Architect → Developer → QA | Complete project setup with 4-phase UI-first approach (Overview → Research → Planning → Implementation) |
+| **New Features** | `new-feature/` | PM → Designer → Architect → Developer → QA | Add functionality with 4-phase UI-first approach (Overview → Analysis → Planning → Implementation) |
+| **Bug Fixes** | `bug-fix/` | PM → Developer → QA | Investigation and resolution with 3-phase systematic approach (Overview → Investigation → Resolution) |
+| **Code Optimization** | `refactor/` | PM → Architect → Developer → QA | Safe code improvement with 3-phase approach (Overview → Analysis → Implementation) |
+| **UI/UX Work** | `ui-work/` | Designer → Developer → QA | Interface implementation with 3-phase design-first approach (Overview → Design → Implementation) |
 
 **Note**: DevOps agent activates automatically for complex projects requiring advanced infrastructure (Docker, Kubernetes, IaC).
 
 ## 🔄 Enhanced Multi-Phase Process
 
-### **PHASE 1: INTELLIGENT ANALYSIS** ⏱️ ~10-15 minutes
+### **PHASE 1: OVERVIEW & SETUP** ⏱️ ~10-15 minutes
 
 **Auto-Detection & Setup**:
 - ✅ Detect project type and existing state
@@ -133,7 +133,22 @@ The agent will automatically:
 - ✅ Configure GitHub Actions and CI/CD automatically
 - ✅ Set up QA tools (Playwright, testing frameworks)
 
-### **PHASE 2: SPEC-DRIVEN PLANNING** ⏱️ ~20-30 minutes
+### **PHASE 2: RESEARCH & ANALYSIS** ⏱️ ~20-30 minutes
+
+**Research Activities** (varies by workflow):
+- ✅ Market research and competitive analysis (project-setup)
+- ✅ Technical feasibility and architecture analysis
+- ✅ User research and requirements gathering
+- ✅ Existing code analysis and pattern identification
+- ✅ Technology stack evaluation and selection
+
+**Analysis Outputs**:
+- ✅ Project blueprint with comprehensive research findings
+- ✅ Technical architecture recommendations
+- ✅ User personas and requirements documentation
+- ✅ Technology decisions with rationale
+
+### **PHASE 3: PLANNING & STORY CREATION** ⏱️ ~30-45 minutes
 
 **Enhanced Planning Process**:
 - ✅ Create hyper-detailed stories with acceptance criteria
@@ -148,7 +163,7 @@ The agent will automatically:
 - ✅ Task dependencies are clearly mapped
 - ✅ CI/CD pipeline is green before proceeding
 
-### **PHASE 3: WORKFLOW-DRIVEN IMPLEMENTATION** ⏱️ Variable
+### **PHASE 4: IMPLEMENTATION** ⏱️ Variable (project-setup only)
 
 **Intelligent Implementation**:
 - ✅ Auto-select appropriate workflow based on task type
@@ -162,6 +177,8 @@ The agent will automatically:
 - ✅ Document decisions in `.augment/context/decisions.md`
 - ✅ Maintain green CI/CD pipeline throughout
 - ✅ Verify each story against acceptance criteria
+
+**Note**: For workflows other than project-setup, implementation happens in Phase 3.
 
 ## 🧠 Smart Context Management
 
@@ -187,12 +204,12 @@ The agent will automatically:
 
 ### Cascading Context Loading
 ```markdown
-# Example: Phase 2 start (after research)
+# Example: Phase 3 start (after research completed)
 1. Load: .augment/context/mission.md (project vision - UPDATED with research)
-2. Load: /docs/research/product-definition.md (research output - INPUT for this phase)
-3. Load: .augment/workflows/project-setup/phase-2-research.md (current workflow phase)
+2. Load: /docs/research/project-blueprint.md (research output - INPUT for this phase)
+3. Load: .augment/workflows/project-setup/phase-3-planning.md (current workflow phase)
 4. Load: .augment/agents/architect.md (role for current phase)
-5. Skip: Individual research files (use synthesized product-definition.md instead)
+5. Skip: Individual research files (use synthesized project-blueprint.md instead)
 ```
 
 ### Context Optimization
@@ -238,7 +255,7 @@ The DevOps agent automatically activates when projects require advanced infrastr
 - MVP or prototype development
 
 ### Dynamic Rules Creation
-Augment Develop Method creates project-specific rules during Phase 1 research:
+Augment Develop Method creates project-specific rules during the research phase:
 
 #### **Universal Rules (Never Change):**
 - File organization standards
@@ -278,6 +295,7 @@ Augment Develop Method leverages Augment Code's native task management:
 ### Core Tools (Always Available)
 - **Context7**: Official documentation consultation
 - **Sequential Thinking**: Complex problem analysis
+- **Web Search**: Market research and competitive analysis
 - **Playwright**: E2E testing and visual validation
 - **GitHub Actions**: Automated CI/CD
 
@@ -303,7 +321,8 @@ Augment Develop Method provides comprehensive templates for consistent documenta
 - **Dynamic Rules**: Project-specific rules and conventions
 
 #### **Template Locations:**
-- **All Templates**: `.augment/templates/research-artifacts.md`
+- **Research Templates**: `.augment/templates/{existing-code-analysis.md, market-analysis.md, product-definition.md, design-research.md, technical-feasibility.md, business-viability.md, project-blueprint.md}`
+- **Story Templates**: `.augment/templates/{story-template.md, ui-first-story-template.md, verification-template.md}`
 - **Context Templates**: `.augment/templates/context-files.md`
 - **Usage Guidelines**: Each template includes detailed usage instructions
 

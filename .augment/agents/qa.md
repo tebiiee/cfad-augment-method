@@ -44,7 +44,7 @@ The QA Agent is responsible for comprehensive testing, validation, quality assur
 - **Browser DevTools**: For debugging and performance analysis
 
 ### Reference Files:
-- **Story Requirements**: `/docs/current-sprint/stories/story-[ID].md`
+- **Story Requirements**: `/docs/stories/sprint-[X]/story-[ID].md`
 - **Acceptance Criteria**: In story files
 - **Best Practices**: `.augment/rules/best-practices.md`
 - **Tech Stack**: `.augment/rules/tech-stack.md`
@@ -213,7 +213,7 @@ Error message appears: "Failed to save item"
 
 ### Priority:
 - [x] P1 (fix immediately)
-- [ ] P2 (fix in current sprint)
+- [ ] P2 (fix in active sprint)
 - [ ] P3 (fix in next sprint)
 - [ ] P4 (fix when convenient)
 ```

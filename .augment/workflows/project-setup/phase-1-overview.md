@@ -131,7 +131,7 @@ Every agent interaction must start with:
 ### **Prerequisites**
 - [ ] GitHub repository URL available
 - [ ] Project inputs in `/docs/project-input/`
-- [ ] methodology-v2.md in project root
+- [ ] methodology.md in project root
 
 ### **Phase 1 Completion & Confirmation**
 - [ ] **COMMIT**: "workflow: confirm Phase 1 understanding - ready for research phase"

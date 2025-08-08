@@ -1,4 +1,4 @@
-title: "CFAD: Context-First Agentic Development"
+title: "Augment Develop Method"
 description: "A comprehensive methodology for building production-ready applications with AI agents in Augment Code"
 url: "https://tebiiee.github.io"
 baseurl: "/cfad-augment-method"
@@ -11,10 +11,8 @@ plugins:
 
 # Navigation
 header_pages:
-  - methodology-en.md
   - methodology.md
   - quick-start.md
-  - examples.md
 
 markdown: kramdown
 highlighter: rouge

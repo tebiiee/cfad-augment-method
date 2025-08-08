@@ -1,12 +1,12 @@
-# Augment Develop Method: New Feature - Phase 2: UI-First Planning & Architecture
+# Augment Develop Method: New Feature - Phase 3: UI-First Planning & Architecture
 
 ## 🎯 Phase Purpose
 Convert feature analysis into implementable plan with UI-first approach, technical architecture, and hyper-detailed stories ready for development.
 
 ## 📍 Phase Navigation
-- **Previous**: Phase 1 - Feature Analysis (`phase-1-analysis.md`) ✅
-- **Current**: Phase 2 - UI-First Planning & Architecture 🔄
-- **Next**: Phase 3 - Implementation (`phase-3-implementation.md`)
+- **Previous**: Phase 2 - Feature Analysis (`phase-2-analysis.md`) ✅
+- **Current**: Phase 3 - UI-First Planning & Architecture 🔄
+- **Next**: Phase 4 - Implementation (`phase-4-implementation.md`)
 
 ---
 
@@ -246,7 +246,7 @@ Convert feature analysis into implementable plan with UI-first approach, technic
 ```markdown
 🎭 **I am acting as Project Manager** for Phase 2 completion and user approval
 
-## Phase 2 Final Validation:
+## Phase 3 Final Validation:
 - [ ] Review technical architecture for completeness and feasibility
 - [ ] Review UI designs and specifications (if applicable)
 - [ ] Review all feature stories for completeness and clarity
@@ -255,7 +255,7 @@ Convert feature analysis into implementable plan with UI-first approach, technic
 - [ ] Validate implementation plan is realistic and achievable
 
 ## Documentation Consolidation:
-- [ ] Create `/docs/features/feature-[ID]-[name]/phase-2-summary.md`
+- [ ] Create `/docs/features/feature-[ID]-[name]/phase-3-summary.md`
 - [ ] Consolidate all planning documentation
 - [ ] Document implementation timeline and milestones
 - [ ] Summarize resource requirements and dependencies

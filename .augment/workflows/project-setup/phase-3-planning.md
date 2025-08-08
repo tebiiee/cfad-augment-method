@@ -334,7 +334,7 @@ Visual Tests                                        Unit Tests
 - [ ] Validate Sprint 1B (Interactive UI) stories are ready for interaction development
 - [ ] Validate Sprint 1C (Backend Integration) stories are ready for full-stack development
 - [ ] Validate Sprint 2+ stories are complete and ready for future development
-- [ ] Create `/docs/current-sprint/` structure pointing to Sprint 1A
+- [ ] Ensure `/docs/stories/sprint-1a/` structure is ready for Sprint 1A
 - [ ] Validate story completeness and independence with UI-first dependencies (CRITICAL)
 - [ ] Verify all UI dependencies and component relationships are mapped
 - [ ] Confirm UI-first TDD approach is complete for ALL stories

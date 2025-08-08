@@ -48,7 +48,7 @@ UI-First story-by-story implementation of MVP with TDD approach, user approval f
 - [ ] Read `.augment/context/mission.md` for project alignment
 - [ ] Read `.augment/context/roadmap.md` for sprint status
 - [ ] Create `/docs/verification/sprint-1a/`, `/docs/verification/sprint-1b/`, `/docs/verification/sprint-1c/` directories
-- [ ] Create `/docs/current-sprint/` structure pointing to Sprint 1A (Visual Foundation)
+- [ ] Ensure `/docs/stories/sprint-1a/` structure is ready for Sprint 1A (Visual Foundation)
 - [ ] Verify CI/CD pipeline is green and ready for UI-first development
 - [ ] Verify UI-first development environment is configured (Storybook, design tools)
 - [ ] Load all stories from `/docs/stories/sprint-1a/` (starting with Visual Foundation)

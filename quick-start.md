@@ -5,7 +5,7 @@ title: "Quick Start Guide"
 
 # 🚀 Quick Start Guide
 
-Get up and running with CFAD methodology in 5 minutes.
+Get up and running with Augment Develop Method in 5 minutes.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Get up and running with CFAD methodology in 5 minutes.
 git clone https://github.com/tebiiee/cfad-augment-method.git
 
 # Copy methodology to your project
-cp cfad-augment-method/methodology-en.md /path/to/your/project/
+cp cfad-augment-method/methodology.md /path/to/your/project/
 ```
 
 ## Step 2: Set Up Project Structure
@@ -29,7 +29,7 @@ Create the required directory structure in your project:
 
 ```bash
 mkdir -p docs/project-input
-mkdir -p docs/current-sprint/{planning,stories,verification,implementation}
+mkdir -p docs/{stories,verification}/sprint-1
 mkdir -p .augment/rules
 ```
 
@@ -56,32 +56,38 @@ https://github.com/yourusername/your-repo
 Open Augment Code and start a new conversation:
 
 ```
-"Apply this methodology: ./methodology-en.md for building [your project description]"
+"Apply this methodology: ./methodology.md for building [your project description]"
 ```
 
-**Important**: Make sure the `methodology-en.md` file is open in your editor.
+**Important**: Make sure the `methodology.md` file is open in your editor.
 
-## Step 5: Let CFAD Guide You
+## Step 5: Let Augment Develop Method Guide You
 
-The agent will follow the 3-phase process:
+The agent will follow a multi-phase process (3-4 phases depending on work type):
 
-### 🔍 Phase 1: Analysis & Context ⏱️ ~10-15 minutes
-- ✅ Analyze your project input
-- ✅ Detect tech stack
-- ✅ Configure GitHub Actions
-- ✅ Set up MCPs
+### 🔍 Phase 1: Overview & Setup ⏱️ ~10-15 minutes
+- ✅ Understand project structure and workflow selection
+- ✅ Set up agent roles and coordination
+- ✅ Establish project context and navigation
+- ✅ Configure development environment
 
-### 📋 Phase 2: Planning ⏱️ ~20-30 minutes  
-- ✅ Define requirements
-- ✅ Design architecture
-- ✅ Create hyper-detailed stories
-- ✅ Set up QA tools
+### 📋 Phase 2: Research/Analysis ⏱️ ~20-30 minutes
+- ✅ Analyze project requirements and existing code
+- ✅ Research market and technical feasibility
+- ✅ Define architecture and technology decisions
+- ✅ Document findings and recommendations
 
-### ⚡ Phase 3: Implementation ⏱️ Variable
-- ✅ Implement stories one by one
-- ✅ Run automated tests
-- ✅ Verify with Playwright E2E
-- ✅ Deploy to production
+### 🎯 Phase 3: Planning ⏱️ ~30-45 minutes (for project-setup)
+- ✅ Create hyper-detailed stories with UI-first approach
+- ✅ Design technical specifications and API contracts
+- ✅ Set up testing strategy and QA tools
+- ✅ Organize sprint structure and dependencies
+
+### ⚡ Phase 4: Implementation ⏱️ Variable (for project-setup)
+- ✅ Implement stories with UI-first prioritization
+- ✅ Run automated tests and quality gates
+- ✅ Verify with Playwright E2E testing
+- ✅ Deploy to production with CI/CD
 
 ## 🎯 Success Tips
 
@@ -93,14 +99,14 @@ The agent will follow the 3-phase process:
 
 ## Next Steps
 
-- **[Read the Full Methodology](methodology-en.html)** - Understand all details
-- **[View Examples](examples.html)** - See real project implementations  
+- **[Read the Full Methodology](methodology.html)** - Understand all details
+- **[GitHub Repository](https://github.com/tebiiee/cfad-augment-method)** - Source code and issues
 - **[Join Discussions](https://github.com/tebiiee/cfad-augment-method/discussions)** - Get help
 
 ---
 
 <div style="text-align: center; padding: 2rem; background: #f6f8fa; border-radius: 8px; margin: 2rem 0;">
   <h3>Ready to build something amazing?</h3>
-  <p>Start your first CFAD project today!</p>
-  <a href="methodology-en.html" style="background: #0366d6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; display: inline-block;">Read Full Methodology →</a>
+  <p>Start your first Augment Develop Method project today!</p>
+  <a href="methodology.html" style="background: #0366d6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; display: inline-block;">Read Full Methodology →</a>
 </div>

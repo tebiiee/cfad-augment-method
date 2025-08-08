@@ -11,8 +11,8 @@ Protocol for creating project-specific rules during Phase 1 research, building u
 These rules are fundamental to Augment Develop Method methodology and apply to ALL projects:
 
 #### **File Organization**
-- Stories: Always in `/docs/current-sprint/stories/`
-- Verification: Always in `/docs/current-sprint/verification/`
+- Stories: Always in `/docs/stories/sprint-1/`, `/docs/stories/sprint-2/`, etc.
+- Verification: Always in `/docs/verification/sprint-1/`, `/docs/verification/sprint-2/`, etc.
 - Research: Always in `/docs/research/`
 - Context: Always in `.augment/context/`
 

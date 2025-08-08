@@ -1,32 +1,39 @@
-# Augment Develop Method: Bug Fix Workflow
+# Augment Develop Method: Bug Fix Workflow - Phase 1: Overview
 
-## 🎯 Workflow Purpose
-Systematic bug investigation, root cause analysis, and resolution with comprehensive testing and user validation.
+## 🎯 Phase Purpose
+Understand the complete bug fix workflow structure, agent roles, and phase navigation before beginning bug investigation.
+
+## 📍 Phase Navigation
+- **Previous**: Workflow Selection ✅
+- **Current**: Phase 1 - Overview 🔄
+- **Next**: Phase 2 - Bug Investigation (`phase-2-investigation.md`)
+
+---
 
 ## 📋 Workflow Structure
 
-### **Total Phases**: 2 phases
+### **Total Phases**: 3 phases
 ### **Estimated Time**: 1-5 days (depends on bug complexity)
 ### **Agent Flow**: Project Manager → Developer/QA → Project Manager
 
 ```
-Phase 1: Investigation → Phase 2: Resolution
-     ↓                        ↓
-Root Cause Analysis → Fix Implementation & Testing
+Phase 1: Overview → Phase 2: Investigation → Phase 3: Resolution
+     ↓                    ↓                      ↓
+Understanding → Root Cause Analysis → Fix Implementation & Testing
 ```
 
 ---
 
 ## 🔄 **Phase Navigation**
 
-### **📍 Start Here**: Phase 1 - Bug Investigation
-**File**: `phase-1-investigation.md`
+### **➡️ Phase 2**: Bug Investigation & Analysis
+**File**: `phase-2-investigation.md`
 **Purpose**: Comprehensive bug analysis and root cause identification
 **Duration**: ~1-2 days
 **Agent**: Project Manager, Developer, QA
 
-### **➡️ Phase 2**: Bug Resolution & Validation
-**File**: `phase-2-resolution.md`
+### **➡️ Phase 3**: Bug Resolution & Validation
+**File**: `phase-3-resolution.md`
 **Purpose**: Fix implementation with comprehensive testing and validation
 **Duration**: ~1-3 days (depends on complexity)
 **Agents**: Developer, QA, Project Manager
@@ -112,8 +119,8 @@ Root Cause Analysis → Fix Implementation & Testing
 - [ ] Reproduction steps (if available)
 
 ### **Start the Workflow**
-1. **Begin with**: `phase-1-investigation.md`
-2. **Follow the phase sequence**: 1 → 2
+1. **Begin with**: `phase-2-investigation.md`
+2. **Follow the phase sequence**: 1 → 2 → 3
 3. **Complete each phase fully** before proceeding
 4. **Get user approval** at designated checkpoints
 
@@ -121,7 +128,7 @@ Root Cause Analysis → Fix Implementation & Testing
 
 ## ➡️ **Next Action**
 
-**Start with**: `phase-1-investigation.md`
+**Start with**: `phase-2-investigation.md`
 **Purpose**: Comprehensive bug investigation and root cause analysis
 **Duration**: ~1-2 days
 **Agent**: Project Manager

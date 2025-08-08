@@ -8,9 +8,9 @@ A comprehensive methodology for building production-ready applications with AI a
 
 ### ✨ Key Features
 
-- **�� Context-First Approach**: Proactive context management using Augment Code's powerful retrieval tools
-- **🔄 Multi-Phase Workflow**: UI-first approach with 2-4 phases depending on workflow type
-- **🤖 Intelligent Tool Integration**: GitHub Actions, Playwright, Context7, and Sequential Thinking
+- **🧠 Context-First Approach**: Proactive context management using Augment Code's powerful retrieval tools
+- **🔄 Multi-Phase Workflows**: UI-first approach with 3-4 phases depending on workflow type
+- **🤖 Intelligent Tool Integration**: GitHub Actions, Playwright, Context7, Web Search, and Sequential Thinking
 - **📋 Task Management**: Built-in progress tracking and sprint organization
 - **🛡️ Quality Assurance**: Automated testing and CI/CD integration
 - **🔀 Adaptive Flows**: Different processes for simple vs complex projects

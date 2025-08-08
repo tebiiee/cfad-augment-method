@@ -2,50 +2,46 @@
 layout: default
 ---
 
-# CFAD: Context-First Agentic Development
+# Augment Develop Method
 
 A comprehensive methodology for building production-ready applications with AI agents in Augment Code.
 
 ## 🚀 Quick Links
 
-- [📖 Read the Complete Methodology](methodology-en.html)
+- [📖 Read the Complete Methodology](methodology.html)
 - [⭐ Star on GitHub](https://github.com/tebiiee/cfad-augment-method)
 - [💬 Join Discussions](https://github.com/tebiiee/cfad-augment-method/discussions)
 
-## 🎯 What is CFAD?
+## 🎯 What is Augment Develop Method?
 
-**Context-First Agentic Development** is a battle-tested 3-phase methodology that transforms AI agents from unpredictable code generators into reliable development partners.
+**Augment Develop Method** is a battle-tested multi-phase methodology that transforms AI agents from unpredictable code generators into reliable development partners.
 
 ### Key Features:
 - 🎯 **Context-First Approach**: Proactive context management
-- 🔄 **3-Phase Workflow**: Analysis → Planning → Implementation  
-- 🤖 **Tool Integration**: GitHub Actions, Playwright, Context7
-- 📋 **Task Management**: Built-in progress tracking
+- 🔄 **Multi-Phase Workflows**: 3-4 phases depending on work type
+- 🎨 **UI-First Approach**: Visual foundation → Interactive UI → Backend integration
+- 🤖 **Tool Integration**: GitHub Actions, Playwright, Context7, Web Search, Sequential Thinking
+- 📋 **Task Management**: Built-in progress tracking and sprint organization
 - 🛡️ **Quality Assurance**: Automated testing and CI/CD
 
 ## 🏗️ The Framework
 
-### Phase 1: Analysis & Context
-- Automatic project state detection
-- Tech stack analysis  
-- MCP configuration
-- Rule generation
+### Workflow Types:
+- **New Project**: 4 phases (Overview → Research → Planning → Implementation)
+- **New Features**: 4 phases (Overview → Analysis → Planning → Implementation)
+- **Bug Fixes**: 3 phases (Overview → Investigation → Resolution)
+- **Refactoring**: 3 phases (Overview → Analysis → Implementation)
+- **UI/UX Work**: 3 phases (Overview → Design → Implementation)
 
-### Phase 2: Complete Planning
-- Requirements definition
-- Architecture design
-- Hyper-detailed story creation
-- QA tool setup
-
-### Phase 3: Iterative Implementation
-- Story-by-story development
-- Automated testing
-- CI/CD integration
-- Quality gates
+### Universal Phase 1: Overview & Setup
+- Project structure understanding
+- Workflow selection and navigation
+- Agent role coordination
+- Context establishment
 
 ## 📊 Results
 
-Projects using CFAD show:
+Projects using Augment Develop Method show:
 - **100%** consistent project structure
 - **Zero** broken deployments  
 - **Comprehensive** test coverage
@@ -53,4 +49,4 @@ Projects using CFAD show:
 
 ---
 
-**Ready to get started?** [Read the complete methodology →](methodology-en.html)
+**Ready to get started?** [Read the complete methodology →](methodology.html)

@@ -16,24 +16,24 @@ Detailed protocols that support workflows with specific procedures for tools, qu
 
 ### Tool Usage by Phase
 
-#### **Phase 1: Research**
+#### **Phase 1: Overview & Setup**
 ```markdown
 ## Required Tools:
-- **Sequential Thinking**: For complex market/technical analysis
+- **Sequential Thinking**: For complex project analysis
 - **Web Search**: For competitive research and market analysis
 - **Context7**: For tech stack documentation and best practices
 - **Codebase Retrieval**: For existing code analysis
 - **Git Commit Retrieval**: For project history understanding
 
 ## Tool Usage Protocol:
-1. **Start each research step** with Sequential Thinking if complex
+1. **Start project analysis** with Sequential Thinking if complex
 2. **Use Web Search** for market and competitive research
 3. **Consult Context7** for technical documentation
 4. **Use Codebase Retrieval** before analyzing existing code
 5. **Check Git history** with Git Commit Retrieval for context
 ```
 
-#### **Phase 2: Architecture & Planning**
+#### **Phase 2: Research (for project-setup) / Analysis (for other workflows)**
 ```markdown
 ## Required Tools:
 - **Sequential Thinking**: For architectural decisions and trade-offs
@@ -48,7 +48,7 @@ Detailed protocols that support workflows with specific procedures for tools, qu
 4. **Check commit history** for previous architectural decisions
 ```
 
-#### **Phase 3: Implementation**
+#### **Phase 3: Planning (for project-setup) / Implementation (for other workflows)**
 ```markdown
 ## Required Tools:
 - **Codebase Retrieval**: Before editing any code

@@ -1,5 +1,11 @@
 # Development Methodology for AI Agents in Augment Code
 
+> **⚠️ DEPRECATED**: This is the old methodology. Use `methodology.md` instead.
+>
+> **Current Methodology**: `methodology.md` - Augment Develop Method
+>
+> This file is kept for historical reference only.
+
 ## 1. Strict Execution Protocol
 
 ### 1.1. STEP 1: MANDATORY Initial Analysis

@@ -43,9 +43,9 @@ This file orchestrates all technical rules and standards for the project. It ser
 ### Universal Rules (Apply to ALL work):
 
 #### File Organization
-- **Stories**: Always in `/docs/current-sprint/stories/`
-- **Verification**: Always in `/docs/current-sprint/verification/`
-- **Implementation**: Code + docs in `/docs/current-sprint/implementation/`
+- **Stories**: Always in `/docs/stories/sprint-1/`, `/docs/stories/sprint-2/`, etc.
+- **Verification**: Always in `/docs/verification/sprint-1/`, `/docs/verification/sprint-2/`, etc.
+- **Research**: Always in `/docs/research/`
 - **Context Updates**: Maintain `.augment/context/` files
 
 #### Quality Gates
